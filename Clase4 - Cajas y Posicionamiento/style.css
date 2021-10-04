@@ -1,0 +1,22 @@
+body {
+    /* margin: 0; */
+}
+
+.caja1 {
+    background-color: red;
+    height: 200px;
+    width: 150px;
+}
+
+.caja2 {
+    background-color: blue;
+    /* % hace referencia al padre */
+    height: 30%;
+    width: 20%;
+}
+
+.caja3 {
+    background-color: cadetblue;
+    height: 30vh;
+    width: 20vw;
+}

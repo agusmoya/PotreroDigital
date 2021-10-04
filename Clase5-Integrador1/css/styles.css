@@ -1,0 +1,55 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    background-color: aliceblue;
+    color: dimgray;
+}
+
+.main {
+    color: #000;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.title {
+    font-weight: 600;
+    margin: 0 0 25px 0;
+}
+
+.left-column {
+    width: 50%;
+    padding-right: 40px;
+}
+
+.presentation,
+.description {
+    font-size: 1.1rem;
+    line-height: 30px;
+}
+
+.presentation {
+    font-weight: 600;
+    font-style: italic;
+    color: darkgray;
+}
+
+.description {
+    margin-top: 30px;
+    font-weight: 400;
+}
+
+.right-column {
+    width: 50%;
+}
+
+.img-potrero {
+    width: 100%;
+}
+
+.team-potrero__members {
+    line-height: 27px;
+}
